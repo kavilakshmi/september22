@@ -1,0 +1,47 @@
+.row {
+    display: grid;
+    grid-template-columns: 99%;
+    gap: 1%;
+    border: 2px solid black;
+}
+
+body {
+    background-color: black;
+}
+
+.row1 {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 2%;
+    border: 2px solid black;
+}
+
+.col1 {
+    height: 200px;
+    background-color: rgb(170, 83, 11);
+}
+
+.orange_clr {
+    background-color: rgb(249, 48, 7);
+}
+
+.row2 {
+    display: grid;
+    grid-template-columns: 29% 69%;
+    gap: 2%;
+    border: 2px solid black;
+}
+.dgreen_clr {
+    background-color: rgb(13, 142, 99);
+}
+.green_clr {
+    background-color: rgb(125, 221, 189);
+}
+
+.row2 .col1 {
+    height: 300px;
+}
+
+.row3 {
+    height: 150px;
+}

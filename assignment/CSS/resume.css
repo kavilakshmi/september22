@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 2px;
+}
+input[type="date"] {
+    background: transparent;
+}
+li:not(:last-child) {
+    margin-bottom: 20px;
+}
+/* 
+.dpcard {
+    box-shadow: 0 4px 8px 0 rgba(3, 46, 44, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    background-color: rgb(19, 190, 206);
+    border-radius: 5px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(3, 46, 44, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    background-color: rgb(220, 234, 245);
+    border-radius: 5px;
+}
+
+.tablecard {
+    box-shadow: 0 4px 8px 0 rgba(3, 46, 44, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    background-color: rgb(222, 204, 253);
+    border-radius: 5px;
+} */
+
+/* hr { 
+    margin-top: 0px;
+    border-top: 1px dotted rgb(4, 4, 4);;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    margin-bottom: 0px;
+}  */
+
+ .center {
+    margin-left: 18%;
+    margin-right: 18%;
+    width: auto;
+    text-align: center;
+} 
+/* 
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(50, 62, 5, 0.937);
+} */
+
+.container {
+    padding: 2px 16px;
+}
+
+/* spacing */
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid rgb(23, 2, 23);
+}
+/* 
+thead th:nth-child(1) {
+    width: 30%;
+}
+
+thead th:nth-child(2) {
+    width: 20%;
+}
+
+thead th:nth-child(odd) {
+    width: 15%;
+}
+
+thead th:nth-child(even) {
+    width: 35%;
+} */
+
+th,
+td {
+    padding: 20px;
+}

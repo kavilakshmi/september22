@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fframe</title>
+    <style>
+        div.frame {
+            text-align: center;
+            background-color: aquamarine;
+        }
+        div.para {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            font-weight: bold;
+            text-align: center;
+            background-color: azure;
+            font-size: x-large;
+        }
+        div.datalist {
+            background-color: rgb(226, 228, 210);
+        }
+        .image {
+            background-color: rgb(245, 170, 203);
+        }
+        .opt {
+            background-color: rgb(217, 235, 204);
+        }
+        .video-container {
+            /* width is set as 100% here. any width can be specified as per requirement */
+            width: 100%;
+            padding-top: 56.25%;
+            height: 0px;
+            position: relative;
+        }
+
+        .video {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="para">
+        <p>click to view profile <a href="./index.html" target="profile"> Kavilakshmi </a></p>
+    </div>
+    <div class="frame">
+        <hr>
+        <iframe src="./table.html" title="index htmls" width="100%" height="500" name="profile"></iframe>
+    </div>
+    <hr>
+    <div class="image">
+        <label>Mountain Image</label>
+        <a href="../images/mountain.jpg" target="image_viewer">view full</a>
+        <hr>
+        <a href="../images/mountain.jpg" download="mountain_image.jpg">Download</a>
+        <iframe src="../images/avator.png" frameborder="0" name="image_viewer" width="100%" height="200px" scrolling="no"></iframe>
+    </div>
+    <div class="opt">
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars">
+            <optgroup label="Swedish Cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+            </optgroup>
+            <optgroup label="German Cars">
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </optgroup>
+        </select>
+
+        <form>
+            <fieldset>
+                <legend>Personalia:</legend>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday"><br><br>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+        <hr>
+        <label>Filter</label>
+        <input list="filter">
+        <datalist id="filter">
+            <option value="Edge">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+        <br>
+        <br>
+        <label>profile strength</label>
+        <progress max="100" value="35"></progress>
+    </div>
+    <div class="video-container">
+        <video class="video" controls>
+            <source src="../video/video_song.mp4" type="video/mp4">
+        </video>
+    </div>
+    
+    
+</body>
+</html>

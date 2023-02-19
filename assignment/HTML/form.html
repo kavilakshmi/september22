@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Task</title>
+    <style>
+        /* body {
+            background-color: rgb(224, 210, 243);
+        } */
+
+        label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+    <body>
+        <center>
+        <h1>KM Custom HTML Form Example Using AppleScript</h1>
+        
+            <p>(by Kavilakshmi)</p>
+        </center>
+        <form>
+            <center>
+            <table border='1px solid' cellspacing="20px">
+                <tbody>
+                    <tr>
+                        <td><label for="name_">Name:</label></td>
+                        <td><input id="name_" type="text" value="John AppleScript"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email_">Email:</label></td>
+                        <td><input id="email_" type="email" value="johnny@AppleScript"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pwd">Password:</label></td>
+                        <td><input id="pwd" type="password" placeholder="Enter password" value="12345"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Approval Required:<br><small>Click on the buttonnor text to select</small></label>
+                        </td>
+                        <td><input id='approval' type="checkbox"> <label for="approval">Do you approve?</label></td>
+                    </tr>
+                    <tr>
+                        <td><label>Pick your favorite:<br><small>Click on the buttonnor text to select</small></label>
+                        </td>
+                        <td><input id='favorite_a' name='favorite' type="radio"> <label for="favorite_a">Choice
+                                A</label><br>
+                            <input id='favorite_b' name='favorite' type="radio"> <label for="favorite_b">Choice
+                                B</label><br>
+                            <input id='favorite_c' name='favorite' type="radio"> <label for="favorite_c">Choice
+                                C</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="popup_">Popup Menu:</label></td>
+                        <td><select id="popup_">
+                                <option>Texas -- TX</option>
+                                <option>India -- IN</option>
+                                <option>America -- US</option>
+                                <option>United Kingdom -- UK</option>
+                                <option>Califonia -- CA</option>
+                                <option>Colorado -- CN</option>
+                                <option>Dalifornia -- DA</option>
+                                <option>Dolorado -- DO</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="list_">List:
+                                <br>
+                                <ul>Setup Options:
+                                    <li><small>Number of rows to display</small></li>
+                                    <li><small>Allow multi-select</small></li>
+                                </ul>
+                            </label></td>
+                        <td><select id="list_" multiple> 
+                                <option>Texas -- TX</option>
+                                <option>India -- IN</option>
+                                <option>America -- US</option>
+                                <option>United Kingdom -- UK</option>
+                                <option>Califonia -- CA</option>
+                                <option>Colorado -- CN</option>
+                                <option>Dalifornia -- DA</option>
+                                <option>Dolorado -- DO</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="number_">Field Ignored by KM</label></td>
+                        <td><input id="number_" type="number" value="10384"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="textarea_">Text Area</label></td>
+                        <td><textarea id="textarea_" rows="5" cols="20">This is text area that accepts and allow us to view whole part of the text by adjusting heights</textarea></td>
+                    </tr>
+                </tbody>
+
+
+            </table>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><button type="submit">Save</button></td>
+                        <td><button type="submit">Cancel</button></td>
+                        <td><button type="submit">Resize</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            </center>
+            
+        </form>
+
+    </body>
+
+</html>

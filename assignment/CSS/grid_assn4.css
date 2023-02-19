@@ -1,0 +1,48 @@
+.row {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 2%;
+    border: 2px solid black;
+}
+
+body {
+    background-color: black;
+}
+
+.red_clr {
+    background-color: rgb(223, 13, 13);
+}
+
+.orange_clr {
+    background-color: rgb(219, 106, 84);
+}
+
+.dgreen_clr {
+    background-color: rgb(9, 92, 64);
+}
+
+.green_clr {
+    background-color: rgb(73, 219, 171);
+}
+
+.sub1 {
+    height: 100px;
+}
+
+.sub2 {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 2%;
+    border: 2px solid black;
+}
+
+.col1 {
+    height: 100px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 2%;
+    border: 2px solid black;
+}

@@ -1,0 +1,39 @@
+.row {
+    display: grid;
+    grid-template-columns: 70% 29%;
+    gap: 1%;
+    border: 2px solid black;
+}
+body {
+    background-color: black;
+}
+
+.first_div {
+    display: grid;
+    grid-template-columns: 99%;
+    gap: 2%;
+}
+.second_div {
+    height: 640px;
+    background-color: rgb(225, 163, 82);
+}
+
+.child1{
+    height: 320px;
+    border: 1px solid black;
+    background-color: rgb(194, 60, 60);
+}
+.child2{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 2%;
+    border: 2px solid black;
+}
+
+.last_div {
+    background-color: aquamarine;
+    height: 305px;
+}
+.dgreen_clr {
+    background-color: rgb(13, 142, 99);
+}

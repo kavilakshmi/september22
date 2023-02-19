@@ -1,0 +1,35 @@
+.row {
+    display: grid;
+    grid-template-columns: 99%;
+    gap: 1%;
+    border: 2px solid black;
+}
+
+body {
+    background-color: black;
+}
+
+.sub1 {
+    height: 150px;
+    background-color: rgb(225, 163, 82);
+}
+
+.sub2 {
+    display: grid;
+    grid-template-columns: 25% 74%;
+    gap: 1%;
+    border: 2px solid black;
+}
+
+.col1 {
+    height: 300px;
+    background-color: rgb(13, 142, 99);
+}
+
+.red_clr2 {
+    background-color: rgb(152, 81, 36);
+}
+
+.green_clr {
+    background-color: rgb(125, 221, 189);
+}

@@ -1,0 +1,60 @@
+/* .login {
+    background-image: url('../images/login.jpg');
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed;
+            background-size: 50% 50%; */
+/* } */ 
+
+legend {
+    /* width: 70px; */
+    padding: 10px;
+    margin-left: calc(50% - 35px - 8px);
+    color: rgb(9, 87, 255);
+    background-color: azure;
+    /* margin: 50% 50% 50% 50%; */
+}
+
+form {
+    background-color: rgb(240, 238, 187);
+    width: 50%;
+}
+
+label {
+    display: inline-block;
+    /* float: left; */
+    clear: left;
+    width: 90px;
+    margin: 5px;
+    text-align: left;
+    color: rgb(51, 0, 255);
+    background-color: cornflowerblue;
+}
+
+input[type="text"] {
+    width: 250px;
+    margin: 5px 0px;
+}
+
+input[type="password"] {
+    width: 250px;
+    margin: 5px 0px;
+}
+
+input[type="submit"] {
+    background-color: rgb(132, 226, 159);
+}
+
+input[type="reset"] {
+    background-color: rgb(143, 163, 253);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#cancel {
+    background-color: rgb(20, 82, 106);
+}

@@ -1,0 +1,170 @@
+
+div p {
+    color: rgb(227, 101, 28);
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 2%;
+    border: 2px dashed grey;
+
+}
+
+/* .column {
+    border: 1px solid brown;
+    flex: 50%;
+    padding: 2px;
+} */
+
+div .heading {
+    color: blueviolet;
+}
+
+.parent_class .para {
+    color: rgb(18, 18, 115);
+    font-size: 10px;
+    font-weight: bold;
+    /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Passions Conflict', cursive;
+    font-style: italic;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    /* font-stretch:expanded; */
+    text-shadow: 2px 2px 5px red;
+    text-align: center;
+}
+
+/* .parent_class .para, .parent_class .heading {
+    color: rgb(64, 238, 180);
+} */
+.parent_class.second_class {
+    border: 2px dotted rebeccapurple;
+    background-color: rgb(214, 209, 203);
+    color: rgb(172, 231, 89);
+    text-align: center;
+}
+
+div .column:nth-child(1) {
+    background-color: rgb(236, 248, 247);
+}
+
+div .column:nth-child(2) {
+    background-color: rgb(181, 194, 217);
+}
+
+.table_ex tbody tr:nth-child(even) {
+    background-color: antiquewhite;
+}
+
+.table_ex tbody tr:nth-child(odd) {
+    background-color: rgb(174, 207, 221);
+}
+
+.table_ex thead:nth-child(1) {
+    background-color: rgb(192, 204, 121);
+    color: rgb(87, 4, 62);
+    font-size: 15px;
+    font-weight: bold;
+    /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Passions Conflict', cursive;
+    font-style: italic;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    /* font-stretch:expanded; */
+    text-shadow: 2px 2px 5px red;
+}
+
+.table_ex2 tbody tr td:nth-child(even) {
+    background-color: antiquewhite;
+}
+
+.table_ex2 tbody tr td:nth-child(odd) {
+    background-color: rgb(174, 207, 221);
+}
+
+.table_ex2 thead:nth-child(1) {
+    color: blueviolet;
+    background-color: rgb(210, 236, 210);
+}
+
+.btn {
+    box-shadow: 0 8px 8px 0 rgb(110, 249, 10);
+    background-color: burlywood;
+    border: none;
+    padding: 100px;
+    width: 50%;
+}
+
+.btn:hover {
+    box-shadow: 0 8px 8px 0 rgb(17, 0, 255);
+    background-color: rgb(235, 13, 109);
+    width: 75%;
+}
+
+.btn:active {
+    box-shadow: 0 8px 8px 0 rgb(234, 255, 0);
+    background-color: rgb(43, 235, 13);
+    width: 100%;
+}
+
+/* 
+div>div>div+p {
+    color: yellow;
+}
+
+/* div>div>div~p {
+    color: rgb(187, 31, 130);
+} */
+/* .row p:nth-child(1){
+    color: red;
+} */
+
+input:checked {
+    width: 30px;
+}
+
+input[type='date']:disabled {
+    background-color: rgb(99, 106, 118);
+}
+
+input[type="date"]:focus {
+    height: 20px;
+    background-color: yellow;
+}
+
+.typo_graph .column {
+    background-color: rgb(121, 204, 121);
+    color: rgb(18, 18, 115);
+    font-size: 15px;
+    font-weight: bold;
+    /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-family: 'Passions Conflict', cursive;
+    font-style: italic;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    /* font-stretch:expanded; */
+    text-shadow: 5px 2px 5px red;
+    /* width: 49%; */
+    height: 200px;
+}
+
+.ff {
+    overflow: hidden;
+    /* white-space:break-space; */
+    white-space:nowrap;
+    text-decoration: underline;
+    text-overflow: ellipsis;
+}
+
+.ss {
+    overflow: scroll;
+    text-transform: uppercase;
+}
+/* 
+#clickme:focus {
+    content: url("../images/red-click.jpg");
+    appearance: none;
+} */
